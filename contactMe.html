@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/contactMestyles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Contact page</title>
+  </head>
+  <body>
+    <header class="header">
+      <h2 id="name">Portfolio</h2>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li>
+            <a class="navbar-item" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="navbar-item" href="./AboutMe.html">About</a>
+          </li>
+          <li>
+            <a class="navbar-item active" href="./contactMe.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    
+
+    <section class="contact-me">
+      <div class="contact-desc">
+        <h2>Reach out to me, <br>Send a custom message<br> by filling this form.
+        </h2>  
+       </div>
+      
+      <div class="card">
+        <div class="contact-header"><h1>Contact Me</h1></div>
+        <form>
+          <div class="form-item">
+            <label for="name">Your Name:</label>
+            <input name="Name" id="name" type="text" />
+          </div>
+
+          <div class="form-item">
+            <input id="mr" value="0" type="radio" name="gender" />
+            <label for="mr"> MR. </label>
+            <input id="ms" value="1" type="radio" name="gender" />
+            <label for="ms"> MS.</label>
+          </div>
+
+          <div class="form-item">
+            <label for="email">E-mail:</label>
+            <input name="EMail" id="email" type="email" />
+          </div>
+
+          <div class="form-item">
+            <label for="profession"> Your Profession:</label>
+
+            <select name="profession" class="dropdown">
+              <option value="1">DEVELOPER</option>
+              <option value="2">ENTERPRENEUR</option>
+              <option value="3">STUDENT</option>
+              <option value="4">OTHER</option>
+            </select>
+          </div>
+
+          <div class="form-item">
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" type="text"> </textarea>
+          </div>
+
+          <div class="form-item">
+            <input
+              class="checkbox"
+              type="checkbox"
+              name="checkbox"
+              value="1"
+            />
+            <label> I want to receive emails </label>
+          </div>
+
+          <input
+            class="send-button"
+            name="send"
+            type="submit"
+            value="Send Message"
+          />
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <a href="mailto:pareshkalsotra@gmail.com">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="contact-icon "
+          /></a>
+          <p>
+            <a class="footer-contact"
+            href="mailto:pareshkalsotra@gmail.com"
+              >pareshkalsotra@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <a
+            href="https://www.linkedin.com/in/pareshkalsotra"
+            target="_blank"
+          >
+            <img
+              src="assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="contact-icon"
+          /></a>
+          <p>
+            <a class="footer-contact"
+              href="https://www.linkedin.com/in/pareshkalsotra"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li>
+            <a class="navbar-item " href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="navbar-item" href="./AboutMe.html">About</a>
+          </li>
+          <li>
+            <a class="navbar-item" href="./contactMe.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      </nav>
+      <p>Copyright &#169; 2024 Paresh Kalsotra. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

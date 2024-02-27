@@ -1,0 +1,91 @@
+.about-container {
+  margin: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left-container {
+  width: auto;
+}
+.right-container {
+  width: 70%;
+  text-align: left;
+}
+.right-container h3 {
+  color: #449898;
+  padding-bottom: 20px;
+}
+.profile-pic {
+  height: 30vh;
+  border-radius: 30px;
+  box-shadow: -2px 2px 10px #7d5237;
+}
+#skills-container {
+  border: 2px solid black;
+  border-radius: 30px;
+  margin: 50px;
+  padding: 30px;
+  box-shadow: 2px 2px 10px #a56d4a;
+}
+#skills-container h3,
+.card h3,
+.project-header {
+  text-align: center;
+  font-size: 4vh;
+  padding-bottom: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.skills li {
+  padding: 3vh;
+}
+.experience-container {
+  margin: 50px;
+  margin-top: 10px;
+  text-align: left;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.card {
+  height: 35vh;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 25px;
+  margin: 10px;
+  box-shadow: 2px 2px 10px #86583b;
+}
+.card ul li {
+  padding: 10px;
+}
+.projects-container {
+  margin: 50px;
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.project-item {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 2px 2px 10px #a56d4a;
+}
+.project-item h3 {
+  padding: 2vh;
+}
+.project-pic {
+  height: 50vh;
+  border-radius: 10px;
+}
