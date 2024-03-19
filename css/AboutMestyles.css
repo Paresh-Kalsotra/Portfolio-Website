@@ -18,14 +18,14 @@
 .profile-pic {
   height: 30vh;
   border-radius: 30px;
-  box-shadow: -2px 2px 10px #7d5237;
+  box-shadow: -2px 2px 10px #222831;
 }
 #skills-container {
   border: 2px solid black;
   border-radius: 30px;
   margin: 50px;
   padding: 30px;
-  box-shadow: 2px 2px 10px #a56d4a;
+  box-shadow: 2px 2px 10px #222831;
 }
 #skills-container h3,
 .card h3,
@@ -58,7 +58,7 @@
   border-radius: 20px;
   padding: 25px;
   margin: 10px;
-  box-shadow: 2px 2px 10px #86583b;
+  box-shadow: 2px 2px 10px #222831;
 }
 .card ul li {
   padding: 10px;
@@ -80,7 +80,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  box-shadow: 2px 2px 10px #a56d4a;
+  box-shadow: 2px 2px 10px #222831;
 }
 .project-item h3 {
   padding: 2vh;
